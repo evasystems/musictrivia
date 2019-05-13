@@ -187,13 +187,13 @@ function gameQuestions() {
   for (var i = 0; i < answerArray.length; i++) {
     var letterIndex;
     if (i === 0) {
-      letterIndex = 'A';
+      letterIndex = ' ';
     } else if (i === 1) {
-      letterIndex = 'B';
+      letterIndex = ' ';
     } else if (i === 2) {
-      letterIndex = 'C' ;
+      letterIndex = ' ' ;
     } else {
-      letterIndex = 'D';
+      letterIndex = ' ';
     }
 
     // creating button elements for each letter/answer, assigning the value of an answer and appending to the element that holds the buttons/answers
@@ -364,7 +364,7 @@ function pageReload(){
 }
 
 function countDownTimer(){
-  var timeleft = 10;
+  var timeleft = 11;
   downloadTimer = setInterval(function() {
     document.getElementById('timer').innerHTML = --timeleft;
 

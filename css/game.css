@@ -52,9 +52,9 @@ nav a {
   display: block;
 }
 .log-out {
-  width: 100%;
-  height: 25px;
-  font-size: 18px;
+  width: 11s0px;
+  height: 30px;
+  font-size: 20px;
   background-color: rgb(207, 88, 20);;
   border: 1px solid white;
   border-radius: 10px;
@@ -77,21 +77,22 @@ nav a {
 
 section {
   text-align: center;
-  padding-top: 20px;
+  padding-top: 0px;
 }
 
 #question {
   margin: 0 auto;
+  height: 90%;
   width: 70%;
-  background-color: #1766F1;
-  font-size: 150%;
-  border: 10px ridge white;
-  border-radius: 25px;
-  padding: 10px;
+  background-color: #000000;
+  font-size: 20px;
+  border: 10px ridge rgb(2, 2, 2);
+  border-radius: 10px;
+  padding: 0px;
 }
 
 #answers {
-  margin-top: 25px;
+  margin-top: 10px;
 }
 
 span {
@@ -99,11 +100,11 @@ span {
   vertical-align: middle;
 }
 
-#qustion button {
-  width: 200px;
-  height: 80px;
-  margin: 20px auto;
-  font-size: 20px;
+#question button {
+  width: 150px;
+  height: 100px;
+  margin: 5px auto;
+  font-size: 30px;
   background-color: blueviolet;
   color: blanchedalmond;
   border-radius: 15px;
@@ -111,10 +112,10 @@ span {
 }
 
 #answersAB button, #answersCD button {
-  width: 300px;
-  height: 80px;
-  margin: 5px 20px 10px 10px;
-  font-size: 20px;
+  width: 80%;
+  height: 50%;
+  margin: 5px 2px 5px 5px;
+  font-size: 30px;
   background-color: blueviolet;
   color: blanchedalmond;
   border-radius: 15px;
@@ -128,11 +129,11 @@ span {
 
 #timer {
   margin: 0 auto;
-  height: 50px;
-  width: 50px;
+  height: 40px;
+  width: 40px;
   background-color: red;
   border-radius: 10px;
-  font-size: 40px;
+  font-size: 30px;
 }
 
 .hidden-element {
@@ -140,7 +141,7 @@ span {
 }
 
 #next-question button {
-  width: 200px;
+  width: 150px;
   height: 50px;
   font-size: 20px;
   background-color: green;
@@ -177,18 +178,27 @@ span {
 
 #levelIndicator {
   margin: 0 auto;
-  text-align: center;
+  text-align: left;
   color: green;
+}
+
+#endGameMsg {
+  width: 100%;
+  height: 100px;
+  font-size: 15px;
+  background-color: black;
+  border-radius: 10px;
+  margin-top: 10px;
 }
 
 .play-again {
   width: 200px;
-  height: 60px;
-  margin: 20px auto;
-  font-size: 24px;
+  height: 100px;
+  margin: 0px auto;
+  font-size: 20px;
   background-color: rgb(214, 67, 30);
   color: blanchedalmond;
-  border-radius: 15px;
+  border-radius: 1px;
   vertical-align: middle;
 }
 
