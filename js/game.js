@@ -364,7 +364,7 @@ function pageReload(){
 }
 
 function countDownTimer(){
-  var timeleft = 11;
+  var timeleft = 10;
   downloadTimer = setInterval(function() {
     document.getElementById('timer').innerHTML = --timeleft;
 
