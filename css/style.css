@@ -4,7 +4,7 @@ font-family: 'Lilita One', cursive;
 font-family: 'Sniglet', cursive; */
 
 body {
-  background-color: black;
+  background: url(../img/music.jpg);
   color: bisque;
 }
 
